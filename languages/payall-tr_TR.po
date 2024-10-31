@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayALL Online Odeme Sistemi\n"
+"POT-Creation-Date: 2021-02-22 13:12+0300\n"
+"PO-Revision-Date: 2021-02-22 13:13+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: payall.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/PayallFooter.php:9
+msgid "Contact Support"
+msgstr "Destek için"
+
+#: includes/PayallFooter.php:9
+msgid "PayALL Official Website"
+msgstr "PayALL Resmi Sitesi"
+
+#: includes/PayallFooter.php:9
+msgid "via or"
+msgstr "üzerinden veya"
+
+#: includes/PayallFooter.php:9
+msgid "destek@payall.com.tr</a> You can send us an email."
+msgstr "destek@payall.com.tr</a> Bize e-posta adresimizden ulaşabilirsiniz."
+
+#: payall.php:85
+msgid "payall"
+msgstr "payall"
+
+#: payall.php:86
+msgid "PayALL Online Payment System"
+msgstr "PayALL Online Ödeme Sistemi"
+
+#: payall.php:87 payall.php:88
+msgid "Credit Card, Debit Cart, and Pay By eMoney Card"
+msgstr "Kredi Kartı, Banka Kartı ve e-Para Kartı ile Ödeme"
+
+#: payall.php:124
+msgid "PayALL Payment Settings"
+msgstr "PayALL Ödeme Ayarları"
+
+#: payall.php:138
+msgid "Add-on Active"
+msgstr "Eklenti Etkin"
+
+#: payall.php:139
+msgid "Plugin Active?"
+msgstr "Eklenti aktif mi?"
+
+#: payall.php:144
+msgid "Environment"
+msgstr "Ortam"
+
+#: payall.php:149
+msgid "Production Mod"
+msgstr "Canlı Mod"
+
+#: payall.php:150
+msgid "Test Mod"
+msgstr "Test Modu"
+
+#: payall.php:151
+msgid "Debug Mod"
+msgstr "Hata Ayıklama Modu"
+
+#: payall.php:170
+msgid "Payment Method"
+msgstr "Ödeme şekli"
+
+#: payall.php:172
+msgid "Payment Method?"
+msgstr "Ödeme şekli?"
+
+#: payall.php:180 payall.php:182
+msgid "Installment?"
+msgstr "Taksit?"
+
+#: payall.php:185
+msgid "No"
+msgstr "Hayır"
+
+#: payall.php:186
+msgid "Yes"
+msgstr "Evet"
+
+#: payall.php:256
+msgid "You can pay with any credit card."
+msgstr "Herhangi bir kredi kartı ile ödeme yapabilirsiniz."
+
+#: payall.php:493
+msgid "Payall payment is processing."
+msgstr "Payall ödemesi işleniyor."
+
+#: payall.php:504
+msgid ""
+"Payment could not be completed: Return message has been changed. Security "
+"breach."
+msgstr "Ödeme tamamlanamadı: İade mesajı değiştirildi. Güvenlik ihlali."
+
+#: payall.php:517
+msgid "Payment could not be completed: Issuer bank response: ("
+msgstr "Ödeme tamamlanamadı: Banka işlem sonucu: ("
+
+#: payform.php:21
+msgid "Your payment could not be completed. Issuer bank response:"
+msgstr "Ödemeniz gerçekleşmedi. Banka sonucu:"
+
+#: payform.php:23
+msgid "Please check your card information and try again."
+msgstr "Lütfen kart bilgilerinizi kontrol edin ve tekrar deneyin."
+
+#: payform.php:29
+msgid "Payment by Credit Card"
+msgstr "Kredi Kartı ile Ödeme"
+
+#: payform.php:30
+msgid "You can make your payment with your credit card on this page securely."
+msgstr ""
+"Ödemenizi bu sayfada kredi kartınız ile güvenli bir şekilde "
+"gerçekleştirebilirsiniz."
+
+#: payform.php:43
+msgid "Card holder name"
+msgstr "Kart üzerindeki isim"
+
+#: payform.php:44
+msgid "NameSurname"
+msgstr "Ad_Soyad"
+
+#: payform.php:50
+msgid "Card number"
+msgstr "Kart numarası"
+
+#: payform.php:64
+msgid "Expiration date"
+msgstr "Son kullanma tarihi"
+
+#: payform.php:83
+msgid "Single pay"
+msgstr "Tek çekim"
+
+#: payform.php:93
+msgid "Pay by Credit Card"
+msgstr "Kredi Kartı ile Öde"
+
+#: payform.php:106
+msgid "Please check your card information"
+msgstr "Lütfen kart bilgilerinizi kontrol edin"
+
+#. Plugin Name of the plugin/theme
+msgid "PayALL Online Odeme Sistemi"
+msgstr "PayALL Online Ödeme Sistemi"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/payall-online-odeme-sistemi/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Payment by Credit Card, Debit Card and E-Money Card"
+msgstr "Kredi Kartı, Banka Kartı ve e-Para Kartı ile Ödeme"
+
+#. Author of the plugin/theme
+msgid "payall.com.tr"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.payall.com.tr/"
+msgstr ""

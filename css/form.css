@@ -1,0 +1,277 @@
+.woocommerce #sidebar {
+  display: none
+}
+
+.payall_row {
+
+  width: 600px;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+.payall-form-container {
+  height: auto;
+  background: #fffdfd;
+  padding: 20px 40px 30px;
+  border-bottom-left-radius: 5px;
+}
+
+.payall_card_number .payall_input,
+.payall_card_holder .payall_input,
+.payall_card_details .payall_input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  color: #212121;
+  border-radius: 8px;
+  border: 2px solid #72949d;
+}
+
+.payall_input-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  color: #212121;
+  border-radius: 8px;
+  border: 2px solid #72949d;
+  margin-top: 12px;
+}
+
+.payall_input-form {
+  margin-bottom: 20px;
+}
+
+.payall_input-form .label {
+  display: block;
+  font-size: 20px;
+  color: #212121;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.payall_input-form .items {
+  margin-bottom: 20px;
+}
+
+
+.payall_input-form .payall_card_details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payall_input-form .payall_card_details .items {
+  width: 48%;
+}
+
+.payall-form-container .btn {
+  background: #70c1b3;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 100%;
+  margin-top: 12px;
+  height: 40px;
+}
+
+.payall_security_logo {
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  margin-left: 150px;
+}
+
+.payall_security_logo img {
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px 5px 5px;
+}
+
+.payall_cardnumber_items {
+  position: relative;
+}
+
+.payall_cardnumber_items div.card {
+  position: absolute;
+  bottom: 1px;
+  right: 10px;
+}
+
+.payall_cardnumber_items div.card.card-pay {
+  width: 60px;
+  height: 50px;
+  background: url("../img/pay.png") no-repeat 3px 4px
+}
+
+.payall_cardnumber_items div.card.card-visa {
+  width: 60px;
+  height: 50px;
+  background: url("../img/visa.png") no-repeat 3px 4px
+}
+
+.payall_cardnumber_items div.card.card-mastercard {
+  width: 60px;
+  height: 50px;
+  background: url("../img/mastercard.png") no-repeat 3px 4px
+}
+
+.payall_cvc {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.payall_cvc .payall_tooltip {
+  color: #9898a7;
+  border: 2px solid #9898a7;
+  border-radius: 50%;
+  width: 25px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.payall_cvc .payall_cvc-img {
+  position: absolute;
+  top: -300%;
+  right: 0;
+  background: #5f6c7d;
+  padding: 12px;
+  border-radius: 5px;
+  display: none;
+}
+
+.payall_cvc .payall_cvc-img img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.payall_cvc:hover .payall_cvc-img {
+  display: block;
+}
+
+
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+form#cc_form input.error {
+  color: red;
+}
+
+button#cc_form_submit:disabled {
+  color: #ccc;
+  background-color: #eee;
+}
+
+button#cc_form_submit {
+  background: #70c1b3;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 86%;
+  margin-top: 12px;
+  height: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+
+.has-error input {
+  border-width: 2px;
+}
+
+#cc_validation.text-danger:after {
+  content: 'Validation failed';
+  color: red;
+}
+
+#cc_validation.text-success:after {
+  content: 'Validation passed';
+  color: green;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 760px) {
+  .payall_row {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+
+  .payall_input-form .payall_card_details {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .payall_input-form .payall_tooltip {
+    display: none;
+  }
+
+  .payall_cardnumber_items div.card {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .payall_row {
+    flex-direction: column-reverse;
+    width: 90%;
+    flex: auto;
+  }
+
+  .payall_row .btn {
+    font-size: small !important;
+  }
+
+
+  .payall_input-form .payall_tooltip {
+    display: none;
+  }
+
+  .payall_input-form .payall_card_details .items {
+    width: 80%;
+  }
+
+  .payall_cardnumber_items div.card {
+    display: none !important;
+  }
+
+  #cc_form_submit h1 {
+    margin-bottom: 2px;
+  }
+
+  .payall_input-form .items {
+    margin-bottom: 10px;
+  }
+
+  .payall_input-form {
+    margin-bottom: 15px;
+    margin-left: 30px !important;
+  }
+
+  .payall_security_logo img {
+    width: 40px;
+    height: 30px;
+  }
+}
